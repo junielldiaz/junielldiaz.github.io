@@ -1,0 +1,71 @@
+/* Page-wide defaults */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(17, 17, 17);
+    color: #f4c1d0;
+    font-size: 1em;
+}
+
+/* Everything above the horizontal line */
+
+#pageHeader{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#pageHeader p {
+    padding:20px;
+    margin:0;
+}
+
+#toolbar{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    background-color: rgb(17, 17, 17);
+    color:#f4c1d0; 
+    border: none;
+    text-align: center;
+}
+
+button:hover{
+    color:#663a82;
+}
+
+/* Below the line, basically the body */
+
+#paragraphOne{
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+/* Footer and below */
+
+footer{
+    margin-top: 200px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
