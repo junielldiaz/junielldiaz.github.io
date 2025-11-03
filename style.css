@@ -14,7 +14,7 @@ body{
     font-size: 4em;
     color: white;
     text-align: center;
-    padding: 0;
+    padding: 20px;
     margin: 0;
 }
 
@@ -56,13 +56,6 @@ button:hover{
     text-align: center;
     color: white;
 }
-
-#paragraphTwo{
-    font-size: 1.5em;
-    text-align: center;
-    color: white;
-}
-
 
 /* Footer and below */
 
